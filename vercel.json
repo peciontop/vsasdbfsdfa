@@ -5,14 +5,10 @@
       "use": "@vercel/python"
     }
   ],
-  "rewrites": [
+  "routes": [
     {
-      "source": "/image.png",
-      "destination": "api/main.py"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "api/main.py"
+      "src": "/(.*)",
+      "dest": "api/main.py"
     }
   ]
 }
