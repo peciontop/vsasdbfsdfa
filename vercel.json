@@ -4,22 +4,13 @@
     {
       "src": "api/main.py",
       "use": "@vercel/python",
-      "config": {
-        "runtime": "python3.11"  // use the version your code needs
-      }
+      "config": { "runtime": "python3.11" }
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "api/main.py",
-      "methods": ["GET", "POST"]  // allow GET & POST requests
+      "dest": "api/main.py"
     }
-  ],
-  "functions": {
-    "api/main.py": {
-      "memory": 1024,   // adjust if heavy tasks
-      "maxDuration": 10 // seconds, tweak if needed
-    }
-  }
+  ]
 }
